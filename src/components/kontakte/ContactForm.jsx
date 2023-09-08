@@ -1,6 +1,6 @@
 import { useRef } from "react"
 
-export default function FahrzeugForm(props) {
+export default function ContactForm(props) {
 
     const vornameRef = useRef()
     const nachnameRef = useRef()
@@ -14,7 +14,6 @@ export default function FahrzeugForm(props) {
             nachname: nachnameRef.current.value,
             email: emailRef.current.value,
             nachricht: nachrichtRef.current.value,
-
         }
 
         fetch('http://localhost:8888/api/guests', {

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import ContactItem from "./ContactItem"
 import ContactForm from "./ContactForm"
 
-export default function FahrzeugListe() {
+export default function ContactList() {
     const [guests, setGuests] = useState([])
     const [refresh, setRefresh] = useState(false)
 
